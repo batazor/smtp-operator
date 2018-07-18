@@ -1,4 +1,5 @@
 apiVersion: "smtp.saas/v1"
 kind: "Template"
 metadata:
-  name: "example"
+  name: "hello-world"
+template: "<h1>Hello World!!!</h1>"

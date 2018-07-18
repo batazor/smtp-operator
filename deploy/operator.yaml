@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
         - name: smtp-operator
-          image: batazor/smtp-operator:4
+          image: batazor/smtp-operator:6
           command:
           - smtp-operator
           imagePullPolicy: Always

@@ -19,6 +19,7 @@ type Template struct {
 	metav1.ObjectMeta `json:"metadata"`
 	Spec              TemplateSpec   `json:"spec"`
 	Status            TemplateStatus `json:"status,omitempty"`
+	Template string `json:"template"`
 }
 
 type TemplateSpec struct {

@@ -1,0 +1,4 @@
+apiVersion: "smtp.saas/v1"
+kind: "Template"
+metadata:
+  name: "example"

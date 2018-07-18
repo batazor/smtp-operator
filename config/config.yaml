@@ -1,0 +1,3 @@
+apiVersion: smtp.saas/v1
+kind: Template
+projectName: smtp-operator
